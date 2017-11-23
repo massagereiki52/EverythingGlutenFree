@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+header {
+  color: white;
+  position:absolute;
+  display:block;
+  margin-bottom: 200px;
+  height: 200px;
+}
+
+header img {
+  width: 100%;
+}
+
+footer {
+  background-color: #009;
+  font-size: 48px;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+nav {
+  background-color: hsl(352, 90%, 43%);
+  height: 20px;
+  padding-top: 0.5em;
+}
+
+nav ul {
+  width: 60;
+  margin: auto;
+}
+
+nav li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+nav a {
+  background-color: hsl(352, 90%, 43%);
+  color: white;
+  display: block;
+  height: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: hsl(27, 88%, 49%);
+  display: block;
+}
+
+/*text formatting*/
+
+body {
+  color: black;
+}
+
+header h1 {
+  color: White;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-outline: 6px 6px black;
+  text-shadow: 4px 4px 6px hsl(352, 90%, 43%);
+}
+
+h2 {
+  padding: 1%;
+  color: white;
+  text-align: center;
+  font-size: 1.25em;
+  text-transform:inherit;
+}
+
+h2#mission {
+  padding: 2%;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  text-transform: inherit;
+  margin-top: 5em;
+
+}
+
+p {
+  padding-top: 1%;
+  color: white;
+  margin-left: 27em;
+  margin-right: 27em;
+}
+
+p#mission {
+  padding: 2%;
+  color: white;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-bottom: 15em;
+  font-size: 1.25em;
+}
+
+footer {
+  clear: both;
+  background-color: hsl(352, 90%, 43%);
+  padding: 5px, 0px;
+  opacity: 0.7;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 1500px;
+  height: 250px;
+  float: right;
+  clear: both;
+}
+
+img#baguette {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 1200px;
+  height: 250px;
+  float: none;
+  clear: both;
+}
+
+.filter figure:nth-of-type(1) img#prom {
+  filter: grayscale(0.5);
+}
+
+img#anniversary {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  float: right;
+  clear: both;
+}
+
+}
+
+section {
+  padding: 5px;
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 1em;
+  text-align: center;
+}
+
+iframe {
+  width: inherit;
+  height: auto;
+  float: left;
+}
+
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+
+/*Don't use a lot of margins*/
