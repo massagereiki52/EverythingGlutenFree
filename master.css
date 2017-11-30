@@ -57,81 +57,12 @@ numerical data/ Code can animate them. Use with caution.
 body {
   background-attachment: fixed;
   padding: 50px;
+  margin: 0;
 }
 
-body section:nth-of-type(1) {
-  width: 1500px;
-  height: 2800px;
-  margin: auto;
-  background-color: white;
-  background-image: url("./heartframeblack.png");
-  background-size: cover;
-  /*background-attachment: fixed;*/
-  background-repeat: space;
-  /*repeat round: not used very often
-  Repeat space adds space around images
-  use no repeat and repeat no stretching*/
-  background-position: center left;
-  background-clip: content-box;
-  background-clip: border-box;
-  background-size: cover;
-  font: 100%/1.4;
-  opacity: 0.7;
-}
 
-body section:nth-of-type(2) {
-  width: 1500px;
-  height: 300px;
-  /*margin: 20px auto;*/
-  /*background-color: purple;*/
-  rgba(255, 255, 255, 0.5);
-  /*width: 800px;*/
-  margin: auto;
-  background-color: white;
-  background-image: url("./heartframeblack.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-clip: content-box;
-  background-clip: border-box;
-  background-size: cover;
-}
 
-body section:nth-of-type(3) {
-  width: 1500px;
-  height: 800px;
-  /*margin: 20px auto;*/
-  /*background-color: purple;*/
-  rgba(255, 255, 255, 0.5);
-  /*width: 800px;*/
-  margin: auto;
-  background-color: white;
-  background-image: url(./heartframeblack.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-clip: content-box;
-  background-clip: border-box;
-  background-size: cover;
-}
 
-body section:nth-of-type(4) {
-  width: 1500px;
-  height: 800px;
-  /*margin: 20px auto;*/
-  /*background-color: purple;*/
-  rgba(255, 255, 255, 0.5);
-  /*width: 800px;*/
-  margin: auto;
-  background-color: white;
-  border-image: url("./heartframeblack.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-clip: content-box;
-  background-clip: border-box;
-  background-size: cover;
-}
 
 /*specify border
 Rounded corners origionally doesn't
@@ -142,23 +73,12 @@ img borders: background transparent white
 ../ means go up a directory (img) if in an
 img folder*/
 
-body section:nth-of-type(2) figure:nth-of-type(3) p {
-  background-color: white;
-}
 
-body section:nth-of-type(3) h1 {
-  color: black;
-  font-family: sans-serif;
-  text-align: center;
-  text-shadow: green -10px -10px 6px, yellow 10px 10px 6px;
-}
 
 /*Text shadows and font shadows
 x, y, axis, specify color and opaxity*/
 
-body section:nth-of-type(3) figure:nth-of-type(2) {
-  box-shadow: inset cyan -20px 20px 10px, inset cyan 20px -20px 10px;
-}
+
 
 /*Box shadow does the same as Font shadow
 click (insomething)*/

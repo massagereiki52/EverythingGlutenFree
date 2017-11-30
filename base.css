@@ -1,15 +1,28 @@
 @charset "UTF-8";
-
 header {
   color: white;
-  position:absolute;
-  display:block;
+  position: absolute;
+  display: block;
   margin-bottom: 200px;
   height: 200px;
 }
 
 header img {
   width: 100%;
+  height: 250%;
+}
+
+header img#main {
+  width: 100%;
+  height: 250%;
+  position: absolute;
+  z-index: 2;
+}
+
+header img#2 {
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 footer {
@@ -20,7 +33,6 @@ footer {
 }
 
 nav {
-  background-color: hsl(352, 90%, 43%);
   height: 20px;
   padding-top: 0.5em;
 }
@@ -28,19 +40,20 @@ nav {
 nav ul {
   width: 60;
   margin: auto;
+    list-style-type: none;
 }
 
 nav li {
   float: left;
   text-align: center;
-  width: 25%;
+  width: 16.66%;
 }
 
 nav a {
   background-color: hsl(352, 90%, 43%);
   color: white;
   display: block;
-  height: 20px;
+    height: 20px;
   text-decoration: none;
 }
 
@@ -52,7 +65,7 @@ nav a:hover {
 /*text formatting*/
 
 body {
-  color: black;
+  color: white;
 }
 
 header h1 {
@@ -72,7 +85,7 @@ h2 {
   color: white;
   text-align: center;
   font-size: 1.25em;
-  text-transform:inherit;
+  text-transform: inherit;
 }
 
 h2#mission {
@@ -82,7 +95,14 @@ h2#mission {
   font-size: 2em;
   text-transform: inherit;
   margin-top: 5em;
+}
 
+h3 {
+  padding: 1%;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  text-transform: inherit;
 }
 
 p {
@@ -97,8 +117,29 @@ p#mission {
   color: white;
   margin-left: 15em;
   margin-right: 15em;
-  margin-bottom: 15em;
+  margin-bottom: 10em;
   font-size: 1.25em;
+}
+
+p#mission {
+  padding-top: 1%;
+  color: white;
+  margin: auto;
+}
+
+p#key {
+  padding-top: 2%;
+  color: white;
+  margin-top: auto;
+  margin-left: 27em;
+  margin-right: 27em;
+  margin-bottom: 8em;
+}
+
+p#pcost {
+  padding: inherit;
+  color: white;
+  text-align: center;
 }
 
 footer {
@@ -138,28 +179,54 @@ img#baguette {
   clear: both;
 }
 
-.filter figure:nth-of-type(1) img#prom {
-  filter: grayscale(0.5);
-}
-
-img#anniversary {
+img#apps {
   display: block;
   margin: auto;
   padding: 5px;
   width: 300px;
   height: 250px;
-  float: right;
+  float: left;
   clear: both;
 }
 
+img#salad {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  float: left;
+  clear: both;
 }
 
-section {
+img#burger {
+  display: block;
+  margin: auto;
   padding: 5px;
-  list-style-position: inside;
-  list-style-type: square;
-  margin: 1em;
-  text-align: center;
+  width: 300px;
+  height: 250px;
+  float: left;
+  clear: both;
+}
+
+img#pizza {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  float: left;
+  clear: both;
+}
+
+img#pasta {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  float: left;
+  clear: both;
 }
 
 iframe {
@@ -175,6 +242,27 @@ figure {
 figcaption {
   display: table-caption;
   caption-side: bottom;
+}
+
+ul#meat {
+  color: white;
+  display: block;
+  padding-left: 55%;
+  text-decoration: none;
+}
+
+ul#others {
+  color: white;
+  display: block;
+  padding-left: 55%;
+  text-decoration: none;
+}
+
+ul#sauces {
+  color: white;
+  display: block;
+  padding-left: 55%;
+  text-decoration: none;
 }
 
 /*Don't use a lot of margins*/
