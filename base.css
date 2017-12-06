@@ -1,7 +1,8 @@
 @charset "UTF-8";
+/**{outline:1px solid yellow;}*/
 header {
   color: white;
-  position: absolute;
+  position: relative;
   display: block;
   margin-bottom: 200px;
   height: 200px;
@@ -25,40 +26,37 @@ header img#2 {
   z-index: 1;
 }
 
-footer {
-  background-color: #009;
-  font-size: 48px;
-  padding-top: 0.5em;
-  text-align: center;
-}
+
 
 nav {
   height: 20px;
   padding-top: 0.5em;
+  clear: both;
 }
 
 nav ul {
-  width: 60;
+  /*width: 60;*/
   margin: auto;
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav li {
   float: left;
   text-align: center;
   width: 16.66%;
+  margin-bottom: 0.5em;
 }
 
 nav a {
-  background-color: hsl(352, 90%, 43%);
-  color: white;
+  background-color: rgb(180, 207, 176);
+  color: black;
   display: block;
-    height: 20px;
+  height: 20px;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: hsl(27, 88%, 49%);
+  background-color: hsl(185, 68%, 53%);
   display: block;
 }
 
@@ -70,83 +68,66 @@ body {
 
 header h1 {
   color: White;
-  font-size: 2.5em;
-  position: absolute;
+  font-size: 3.75em;
+  position:absolute;
   top: 50%;
-  left: 25%;
+  left: 37%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-outline: 6px 6px black;
-  text-shadow: 4px 4px 6px hsl(352, 90%, 43%);
+  text-shadow: 4px 4px 6px rgb(180, 207, 176);
 }
 
-h2 {
-  padding: 1%;
+
+h2{
+  padding: 2%;
   color: white;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 3em;
   text-transform: inherit;
+  /*margin-top: 5em;*/
 }
 
-h2#mission {
+h3 {
   padding: 2%;
   color: white;
   text-align: center;
   font-size: 2em;
   text-transform: inherit;
-  margin-top: 5em;
 }
 
-h3 {
+h4{
   padding: 1%;
   color: white;
   text-align: center;
-  font-size: 1em;
+  font-size: 2em;
   text-transform: inherit;
 }
 
-p {
-  padding-top: 1%;
-  color: white;
-  margin-left: 27em;
-  margin-right: 27em;
-}
 
-p#mission {
-  padding: 2%;
+
+p{
+  padding: 15, 0.5;
   color: white;
-  margin-left: 15em;
-  margin-right: 15em;
-  margin-bottom: 10em;
+  margin-left: 9em;
+  margin-right: 9em;
+  margin-bottom: 5em;
+  font-size: 1.25em;
+}
+p#aboutus{
+  padding: 15, 0.5;
+  color: white;
+  margin-left: 9em;
+  margin-right: 8em;
+  margin-bottom: 5em;
   font-size: 1.25em;
 }
 
-p#mission {
-  padding-top: 1%;
-  color: white;
-  margin: auto;
-}
-
-p#key {
-  padding-top: 2%;
-  color: white;
-  margin-top: auto;
-  margin-left: 27em;
-  margin-right: 27em;
-  margin-bottom: 8em;
-}
-
-p#pcost {
-  padding: inherit;
-  color: white;
-  text-align: center;
-}
-
 footer {
-  clear: both;
-  background-color: hsl(352, 90%, 43%);
-  padding: 5px, 0px;
-  opacity: 0.7;
+  background-color: rgb(180, 207, 176);
+  padding-top: 5px, 0px;
+  /*opacity: 0.7;*/
+  height: 25px;
 }
 
 .clearfix {
@@ -229,6 +210,17 @@ img#pasta {
   clear: both;
 }
 
+img#drinks{
+  display: block;
+  margin: auto;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  float: left;
+  clear: both;
+  align-items: center;
+}
+
 iframe {
   width: inherit;
   height: auto;
@@ -249,6 +241,7 @@ ul#meat {
   display: block;
   padding-left: 55%;
   text-decoration: none;
+  
 }
 
 ul#others {
@@ -264,5 +257,7 @@ ul#sauces {
   padding-left: 55%;
   text-decoration: none;
 }
+
+
 
 /*Don't use a lot of margins*/
