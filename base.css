@@ -55,7 +55,7 @@ body {
 header h1 {
   color: White;
   font-size: 3.75em;
-  position:absolute;
+  position: absolute;
   top: 50%;
   left: 37%;
   transform: translate(-50%, -50%);
@@ -64,71 +64,83 @@ header h1 {
   text-shadow: 4px 4px 6px rgb(180, 207, 176);
 }
 
-
-h2{
+h2 {
   padding: 2%;
   color: white;
   text-align: center;
   font-size: 3em;
   text-transform: inherit;
+  clear: both;
   /*margin-top: 5em;*/
 }
 
 h3 {
   padding: 2%;
   color: white;
-  text-align: center;
+  text-align: left;
   font-size: 2em;
   text-transform: inherit;
-}
-
-h4{
-  padding: 1%;
-  color: white;
-  text-align: center;
-  font-size: 2em;
-  text-transform: inherit;
+  clear: both;
 }
 
 
-
-p{
+p {
   padding: 15, 0.5;
   color: white;
   margin-left: 9em;
   margin-right: 9em;
   margin-bottom: 5em;
   font-size: 1.25em;
+  clear: both;
 }
-p#aboutus{
-  padding: 15, 0.5;
-  color: white;
-  margin-left: 9em;
-  margin-right: 8em;
-  margin-bottom: 5em;
-  font-size: 1.25em;
-}
+
+
+
 
 footer {
   background-color: rgb(180, 207, 176);
   padding: 6px, 0px;
   height: 25px;
-clear: both;
-}
-
-.clearfix {
   clear: both;
 }
 
-.clearfix::after {
+
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 2px;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  float: left;
+  clear:none;
+}
+
+iframe {
+  width: inherit;
+  height: auto;
+  float: left;
   clear: both;
-  content: "";
-  display: table;
 }
 
 
 
-img#baguette {
+ul {
+ list-style-type: square;
+ list-style-position: outside;
+ list-style-image: none;
+}
+#aboutus {
+  padding: 15, 0.5;
+  color: white;
+  margin-left: 9em;
+  margin-right: 8em;
+  margin-bottom: 5em;
+  clear: both;
+}
+
+#baguette {
   display: block;
   margin: auto;
   padding: 5px;
@@ -138,54 +150,90 @@ img#baguette {
   clear: both;
 }
 
-img{
+
+#map {
   display: block;
-  margin: auto;
+  margin: 0em, 3em;
   padding: 5px;
   width: 300px;
   height: 250px;
+  float: right;
+  clear: both;
+}
+
+#sides{
+  padding: 15, 0.5;
+  color: white;
+  margin-left: 9em;
+  margin-right: 9em;
+  margin-bottom: 5em;
+  font-size: 1.25em;
+  clear: both;
+  text-align: center;
+}
+
+
+.apps{
+  padding: 5px;
   float: left;
   clear: both;
 }
-img#map {
-  display: block;
-  margin: 0em,3em;
-  padding: 5px;
-  width: 400px;
-  height: 400px;
-  float: right;
-  clear: both;}
-
-
-iframe {
-  width: inherit;
-  height: auto;
-  float: left;
+.clearfix {
+  clear: both;
 }
 
-figure {
+.clearfix::after {
+  clear: both;
+  content: "";
   display: table;
 }
-
-figcaption {
-  display: table-caption;
-  caption-side: bottom;
-}
-
-ul{
+.cost{
+  padding: 15, 0.5;
   color: white;
-  display: block;
-  padding: 5em;
-  text-decoration: none;
-  text-align: justify;
+  margin-left: 9em;
+  margin-right: 9em;
+  margin-bottom: 5em;
+  font-size: 1.25em;
   clear: both;
-
+  text-align: center;
 }
-div img {
- display: block;
- padding: 2em;
- float: left;
- 
+.drinks{
+  padding: 15, 0.5;
+  color: white;
+  margin-left: 9em;
+  margin-right: 9em;
+  margin-bottom: 5em;
+  font-size: 1.25em;
+  clear: both;
+  text-align: center;
+}
+.food {
+  float: left;
+  width: 50%;
+}
+.food::after{
+  content: "";
+    display: table;
+    clear: both;
+}
+
+.images {
+  padding: 5px;
+  float: left;
+}
+.images2{
+  padding: 5px;
+  float:left;
+  clear: both;
+}
+.pizza {
+  float: left;
+  width: 33.33%;
+}
+.pizza::after{
+  content: "";
+    display: table;
+    clear: both;
 }
 
 
