@@ -38,8 +38,6 @@ figcaption {
 100 can see
 0 can't see through*/
 
-
-
 /*image formats
 bitmap
 gif does 8 bit
@@ -57,10 +55,6 @@ body {
   margin: 0;
 }
 
-
-
-
-
 /*specify border
 Rounded corners origionally doesn't
 make text fit.
@@ -70,12 +64,8 @@ img borders: background transparent white
 ../ means go up a directory (img) if in an
 img folder*/
 
-
-
 /*Text shadows and font shadows
 x, y, axis, specify color and opaxity*/
-
-
 
 /*Box shadow does the same as Font shadow
 click (insomething)*/
