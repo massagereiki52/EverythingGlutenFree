@@ -83,7 +83,6 @@ h3 {
   clear: both;
 }
 
-
 p {
   padding: 15, 0.5;
   color: white;
@@ -95,16 +94,12 @@ p {
 }
 
 
-
-
 footer {
   background-color: rgb(180, 207, 176);
   padding: 6px, 0px;
   height: 25px;
   clear: both;
 }
-
-
 
 img {
   display: block;
@@ -124,13 +119,13 @@ iframe {
   clear: both;
 }
 
-
-
 ul {
  list-style-type: square;
  list-style-position: outside;
  list-style-image: none;
+ text-decoration: none;
 }
+
 #aboutus {
   padding: 15, 0.5;
   color: white;
@@ -151,16 +146,20 @@ ul {
 }
 
 
-#map {
-  display: block;
-  margin: 0em, 3em;
-  padding: 5px;
-  width: 300px;
-  height: 250px;
-  float: right;
+#footer{
+  padding: 15, 0.5;
+  color: black;
+  margin-left: 9em;
+  margin-right: 9em;
+  margin-bottom: 5em;
+  font-size: 1.25em;
   clear: both;
 }
-
+#footer2 {
+  color: rgb(36, 71, 67);
+  text-decoration: none;
+  clear: both;
+}
 #sides{
   padding: 15, 0.5;
   color: white;
@@ -186,6 +185,14 @@ ul {
   clear: both;
   content: "";
   display: table;
+}
+.contact {
+  padding: 15, 0.5;
+  color: white;
+  margin-left: 9em;
+  margin-right: 9em;
+  font-size: 1.75em;
+  text-align: center;
 }
 .cost{
   padding: 15, 0.5;
@@ -226,7 +233,27 @@ ul {
   float:left;
   clear: both;
 }
-.pizza {
+.map {
+  display: block;
+  margin: 0em, 2em;
+  margin-bottom: 1em;
+  padding: 5px;
+  width: 375px;
+  height: 375px;
+  float: right;
+  clear: both;
+  text-align: right;
+}
+.NA{
+  float: left;
+  width: 25%;
+}
+.NA::after{
+  content: "";
+    display: table;
+    clear: both;
+}
+.pizza{
   float: left;
   width: 33.33%;
 }
@@ -236,5 +263,10 @@ ul {
     clear: both;
 }
 
+.pasta{
+  float: left;
+  width: 33.33%;
+  margin-bottom: 2em;
+}
 
 /*Don't use a lot of margins*/
