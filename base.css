@@ -1,8 +1,8 @@
 @charset "UTF-8";
-/**{outline:1px solid yellow;}*/
 
+/**{outline:1px solid yellow;}*/
 header {
-  color: white;
+  color: #f8f8ff;
   position: relative;
   display: block;
   margin-bottom: 200px;
@@ -29,54 +29,57 @@ nav ul {
 nav li {
   float: left;
   text-align: center;
-  width: 16.66%;
-  margin-bottom: 0.5em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-bottom: 1em;
+  background-color: rgb(180, 207, 176);
+  text-align: center;
 }
 
 nav a {
   background-color: rgb(180, 207, 176);
-  color: black;
+  color: #262b2f;
   display: block;
-  height: 20px;
   text-decoration: none;
+  font-size: 3rem;
+  text-align: center;
 }
 
 nav a:hover {
-  background-color: hsl(185, 68%, 53%);
+  background-color: #262b2f;
+  color: rgb(180, 207, 176);
   display: block;
 }
 
 /*text formatting*/
-
 body {
-  color: white;
+  color: #f8f8ff;
 }
 
 header h1 {
-  color: White;
-  font-size: 3.75em;
+  color: #f8f8ff;
+  font-size: 4.25rem;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 37%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  text-outline: 6px 6px black;
+  text-outline: 1rem 1rem #262b2f;
   text-shadow: 4px 4px 6px rgb(180, 207, 176);
 }
 
 h2 {
   padding: 2%;
-  color: white;
+  color: #f8f8ff;
   text-align: center;
-  font-size: 3em;
+  font-size: 4rem;
   text-transform: inherit;
   clear: both;
-  /*margin-top: 5em;*/
 }
 
 h3 {
   padding: 2%;
-  color: white;
+  color: #f8f8ff;
   text-align: left;
   font-size: 2em;
   text-transform: inherit;
@@ -85,18 +88,17 @@ h3 {
 
 p {
   padding: 15, 0.5;
-  color: white;
+  color: #f8f8ff;
   margin-left: 9em;
   margin-right: 9em;
   margin-bottom: 5em;
-  font-size: 1.25em;
+  font-size: 1.75rem;
   clear: both;
 }
 
 footer {
   background-color: rgb(180, 207, 176);
   padding: 6px, 0px;
-  height: 25px;
   clear: both;
 }
 
@@ -127,7 +129,7 @@ ul {
 
 #aboutus {
   padding: 15, 0.5;
-  color: white;
+  color: #f8f8ff;
   margin-left: 9em;
   margin-right: 8em;
   margin-bottom: 5em;
@@ -146,23 +148,23 @@ ul {
 
 #footer {
   padding: 15, 0.5;
-  color: black;
-  margin-left: 9em;
-  margin-right: 9em;
-  margin-bottom: 5em;
-  font-size: 1.25em;
+  color: #262b2f;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
   clear: both;
 }
 
 #footer2 {
-  color: rgb(36, 71, 67);
+  color: #262b2f;
   text-decoration: none;
   clear: both;
 }
 
 #sides {
   padding: 15, 0.5;
-  color: white;
+  color: #f8f8ff;
   margin-left: 9em;
   margin-right: 9em;
   margin-bottom: 5em;
@@ -189,7 +191,7 @@ ul {
 
 .contact {
   padding: 15, 0.5;
-  color: white;
+  color: #f8f8ff;
   margin-left: 9em;
   margin-right: 9em;
   font-size: 1.75em;
@@ -198,7 +200,7 @@ ul {
 
 .cost {
   padding: 15, 0.5;
-  color: white;
+  color: #f8f8ff;
   margin-left: 9em;
   margin-right: 9em;
   margin-bottom: 5em;
@@ -209,7 +211,7 @@ ul {
 
 .drinks {
   padding: 15, 0.5;
-  color: white;
+  color: #f8f8ff;
   margin-left: 9em;
   margin-right: 9em;
   margin-bottom: 5em;
