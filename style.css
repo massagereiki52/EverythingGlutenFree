@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  height: 4rem;
+  height: 25%;
   width: 100%;
   clear: both;
 }
@@ -30,8 +30,8 @@ nav ul {
 nav li {
   float: left;
   text-align: center;
-  padding-left: .25rem;
-  padding-right: .25rem;
+  padding-left: .85rem;
+  padding-right: .85rem;
   margin-bottom: 1rem;
   background-color: #86608e;
 }
@@ -41,7 +41,7 @@ nav a {
   color:  #f8f8ff;;
   display: block;
   text-decoration: none;
-  font-size: 2.07rem;
+  font-size: 3.75rem;
   text-align: center;
 }
 
@@ -169,6 +169,7 @@ figcaption {
   color:  #f8f8ff;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-top: 3rem;
   margin-bottom: 5rem;
   font-size: 2rem;
   clear: both;

@@ -15,12 +15,12 @@ textarea{
   height: 200%;
 }
 #submit{
-  width:75%;
+  width:100%;
   height: 50%;
   margin-bottom: 1rem;
 }
 .contact {
-  /* padding: 5, 0.5; */
+  padding: 5, 0.5;
   color: #f8f8ff;
   font-size: 1.25rem;
   text-align: center;
@@ -30,9 +30,9 @@ textarea{
   display: block;
   margin: 0em, 2em;
   margin-bottom: 1em;
-  width: 25%;
-  height: 25%;
+  width: 100%;
+  height: 100%;
   float:inherit;
-  clear: bxoth;
+  clear: both;
   text-align: right;
 }
