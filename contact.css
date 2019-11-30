@@ -1,0 +1,20 @@
+.contact {
+  padding: 15, 0.5;
+  color: #f8f8ff;
+  margin-left: 9em;
+  margin-right: 9em;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.map {
+  display: block;
+  margin: 0em, 2em;
+  margin-bottom: 1em;
+  padding: 5px;
+  width: 375px;
+  height: 375px;
+  float: right;
+  clear: both;
+  text-align: right;
+}
