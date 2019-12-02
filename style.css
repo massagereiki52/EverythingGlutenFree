@@ -57,7 +57,7 @@ header h1 {
   position: absolute;
   margin-left: 10%;
   padding-top: 25%;
-  padding-left: 20rem;
+  padding-left: 10rem;
   padding-bottom: 1rem;
   transform: translate(-50%, -96%);
   text-transform: uppercase;
@@ -77,6 +77,8 @@ h1, h2, h3, div, p, header, main, nav, ul, li, figure, figcaption, section {
 }
 
 h2 {
+  font-family: 'Bree Serif', serif;
+
   padding: 0;
   padding-bottom: 3rem;
   padding-top: 2rem;
@@ -88,6 +90,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Bree Serif', serif;
   padding: 2%;
   color: #f8f8ff;
   text-align: center;
@@ -130,7 +133,6 @@ iframe {
 }
 
 ul {
-  list-style-type: square;
   list-style-position: outside;
   list-style-image: none;
   text-decoration: none;
