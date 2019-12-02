@@ -1,30 +1,3 @@
 @media only screen and (max-width: 768px) {
 
-  nav ul {
-    margin: auto;
-    list-style-type: none;
-  }
-
-  nav a {
-    font-size: 1.64rem;
-  }
-  #footer {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1.75rem;
-  }
-
-  .cost {
-    font-size: 1.34rem;
-  }
-
 }
