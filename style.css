@@ -16,11 +16,13 @@ html {
 }
 
 body {
+  width:100%;
+  height: auto;
   color: #f8f8ff;
   background-attachment: fixed;
 }
 
-ul li a {
+nav ul li a {
   margin: auto;
   list-style-type: none;
   padding: 0;
@@ -34,13 +36,14 @@ ul li a {
   clear: both;
 }
 
-ul li a:hover {
+nav ul li a:hover {
   background-color: #f8f8ff;
   color: #86608e;
   display: block;
 }
 
-header {
+
+article header {
   color: #f8f8ff;
   position: relative;
   display: block;
@@ -49,7 +52,7 @@ header {
   width: 100%;
 }
 
-header h1 {
+article header h1 {
   font-family: 'Bree Serif', serif;
   color: #f8f8ff;
   font-size: 7vmax;
@@ -65,10 +68,8 @@ header h1 {
   text-shadow: 4px 4px 6px #86608e;
 }
 
-header img {
-  width: 100%;
-  height: 250%;
-  display: none;
+article header img{
+  display:none;
 }
 
 h1, h2, h3, div, p, header, main, nav, ul, li, figure, figcaption, section {
@@ -78,7 +79,6 @@ h1, h2, h3, div, p, header, main, nav, ul, li, figure, figcaption, section {
 
 h2 {
   font-family: 'Bree Serif', serif;
-
   padding: 0;
   padding-bottom: 3rem;
   padding-top: 2rem;

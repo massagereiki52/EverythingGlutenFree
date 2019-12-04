@@ -1,105 +1,79 @@
-/* @media only screen and (max-width: 768px) {
-  header h1 {
-    font-size: 6vmax;
-    margin-left: 27%;
-    padding-top: 27%;
-    padding-left: 20rem;
-    transform: translate(-50%, -96%);
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 768px;
   }
 
-  .title {
-    transform: translate(-50%, -90%);
+
+  article header h1 {
+    font-size: 5.5vmax;
+    transform: translate(0%, -200%);
+    text-outline: 1rem 1rem #262b2f;
+    text-shadow: 4px 4px 6px #86608e;
   }
 
-  .about {
-    text-align: center;
-    font-size: 3vmax;
-  }
-
-  #footer {
-    font-size: 2.5rem;
-  } */
-
-  /* FAQ's */
-  /* section h2 {
-    font-size: 6vmax;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  section p {
-    font-size: 2.41vmax;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  /* menu */
-  /* .GF {
-    text-align: center;
-    font-size: 2.05vmax;
-  }
-} */ 
-
-/* @media only screen and (max-width: 960px) {
-  header img {
-    width: 100%;
-    height: 100%;
+  article header img {
     display: block;
+    width: 100%;
+    height: auto;
+    margin-left: -1.1rem;
+    margin-top: -1.1rem;
+    margin-right: -.5rem;
   }
-  img {
-    display:inline-block;
-    width: 22%;
-    height: 22%;
-  }
-  ul li a {
-    overflow: hidden;
 
+  nav {
+    width: 100%;
+    margin-top: -28%;
   }
-  header h1 {
+
+  nav ul li {
     font-size: 5vmax;
-    margin-left: 50%;
-    padding-left: 22rem;
-    transform: translate(-50%, -188%);
+  }
+  section h2{
+    font-size: 6vmax;
+  }
+  section p{
+    font-size: 2vmax;
+  }
+  h2 {
+    font-size: 8vmax;
+    padding-bottom: 0rem;
+
   }
 
-  header {
-    margin-bottom: -15px;
-  }
-  .title {
-    transform: translate(-50%, -90%);
+  h3 {
+    font-size: 5vmax;
   }
 
-  .about {
-    text-align: center;
-    font-size: 3vmax;
+  .GF {
+    font-size: 1.9vmax;
   }
 
   #footer {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .wrapper {
+    width: 100%;
   }
 
-  /* FAQ's */
-  /* section h2 {
-    font-size: 6vmax;
-    padding: 1rem;
-    text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  article header h1 {
+    font-size: 6.5vmax;
+    transform: translate(0%, -200%);
+    text-outline: 1rem 1rem #262b2f;
+    text-shadow: 4px 4px 6px #86608e;
+  }
+  h2 {
+    font-size: 5vmax;
+  }
+  .GF {
+    font-size: 2.1vmax;
+    padding-bottom: .5rem;
+  }
+  nav{
+    background: #86608e;
   }
 
-  section p {
-    font-size: 2.41vmax;
-    padding: 1rem;
-    text-align: center;
-  } */
-
-  /* menu */
-  /* .GF {
-    text-align: center;
-    font-size: 2.05vmax;
-  }
-  .item1{
-    width: 25%;
-    height: 25%;
-    display:inline-block;
-    clear: both;
-  } */
-/* } */
+}
