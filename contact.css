@@ -1,24 +1,29 @@
-form{
-padding-left: 15%;
-padding-right: 40%;
+form {
+  padding-left: 15%;
+  padding-right: 40%;
 }
-label{
+
+label {
   font-size: 2rem;
   padding-top: 4%;
 }
-input{
-width: 100%;
-height: 100%;
-}
-textarea{
+
+input {
   width: 100%;
   height: 100%;
 }
-#submit{
-  width:100%;
+
+textarea {
+  width: 100%;
+  height: 100%;
+}
+
+#submit {
+  width: 100%;
   height: 50%;
   margin-bottom: 1rem;
 }
+
 .contact {
   padding: 5, 0.5;
   color: #f8f8ff;
@@ -32,7 +37,8 @@ textarea{
   margin-bottom: 1em;
   width: 75%;
   height: 75%;
-  float:inherit;
+  float: inherit;
   clear: both;
   text-align: right;
+
 }
