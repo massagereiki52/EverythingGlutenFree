@@ -136,3 +136,34 @@
     font-size:2.5vmax;
   }
 }
+@media only screen and (min-width: 960px) {
+  .wrapper {
+    width: 100%;
+  }
+  img {
+
+    width: 40%;
+    height: auto;
+  }
+  article header h1 {
+    font-size: 7vmax;
+  }
+
+  nav {
+    margin-top: -26%;
+    background-color: #86608e;
+  }
+
+  nav ul li {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+  }
+
+  nav ul li a {
+    font-size: 3.5vmax;
+    padding-left: .459rem;
+    padding-right: .44rem;
+    margin-left: .25rem;
+    background-color: #86608e;
+  }
+}
